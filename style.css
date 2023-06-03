@@ -1,0 +1,178 @@
+html{font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Poppins', sans-serif, sans-serif; margin: 0;}
+		*{box-sizing: border-box;}
+		body,nav,section{margin: 0; background: black;}
+		div{margin: 0; }
+		section{background: none; margin: auto;}
+		p{word-break: keep-all; }
+		h2{color: black; font-size: 30pt; line-height: 1.3;}
+		body{
+              margin: 0;
+              height: 100%;
+              width: 100%;
+              overflow-y: visible;
+              overflow-x: hidden;
+              position: relative;
+              right: 0px;
+              left: 0px;}
+        body {
+              background-image: url('11.png');}
+
+
+        footer{height: 0px;}
+        footer p{text-align: center; 
+              margin: 0; left: 550px; height: 40px; padding: 0px; position: relative;}      
+
+        p{; 
+            line-height: 1.7;
+			      font-weight: 400;
+            word-spacing: -1px;
+           font-size: 2em;
+           width: 700px; margin: 0;
+		       padding: 50px 0px; position: relative; text-align: left;
+           font-family: poppins; color: white;}
+
+       nav{width: 100%;
+           height: 44px;
+           z-index: 1;
+           position: fixed;
+           left: 0px;
+           background-color: rgba(255,255,255,0.5);
+           backdrop-filter: blur(10px);
+           display: flex;}
+
+        ul{width: 600px; height: 44px; padding: 0; margin:0; margin-left: auto; display: flex;}
+        li{list-style-type: none; width: 20%; height: 44px; text-align:center; 
+          line-height: 44px; margin-left: auto;}
+ 
+        li a{font-family: poppins; font-weight: 600;color: white;}
+        .logo{ size: 50vw; height: 50px; width: 150px; float: left; text-align: center; color: white; margin: 0; position: relative; top: 8px;}
+        .logo img{size: 100px 100px;}
+        a:link { text-decoration: none; }
+        a:visited { text-decoration: none; }
+        a:hover { text-decoration: none; color:#FFF600; }
+        a:active { text-decoration: none; }
+
+        #myVideo1{
+            position: relative;
+            top: -50px;
+            right: 0;
+            bottom: 0;
+            width: 100%; height: 3309px;
+            size: 90%;}
+        
+        .video{width: 100%; height: 700px;}
+        section.start{width: 100%; height: 3309px;}
+       
+        .wrap img{position: relative; width: 1793px; height: 310px; top: 630px; left: 60px;}
+
+        .flip-box-inner {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         
+         
+         transition: transform 0.8s;
+         transform-style: preserve-3d;
+            }
+
+         .flip-box:hover .flip-box-inner {
+         transform: rotateY(180deg);
+            }
+
+         .flip-box-front, .flip-box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          }
+
+          .flip-box-front {
+          background-color: #bbb;
+          color: black;
+          }
+
+          .flip-box-back {
+          background-color: dodgerblue;
+          color: white;
+          transform: rotateY(180deg);
+          }
+
+        .wrap .wrap1 .wrap2 .wrap3 {width: 100%; height: 600px; margin: 0; position: relative;}
+        .wrap1 h1{margin: auto; position: relative; top: 960px; left: 220px; align: center; color: white;}
+        .wrap2 h1{margin: auto; position: relative; top: 925px; left: 800px; align: center; color: white;}
+        .wrap3 h1{margin: auto; position: relative; top: 890px; left: 1400px; align: center; color: white;}
+
+
+
+        #myVideo{
+            position: relative;
+            top: -50px;
+            right: 0;
+            bottom: 0;
+            width: 100vw; height: 60vw;
+            size: 90%;}
+
+        .wrap4 {width: 100%; height: 300px; position: relative;}
+        section.about{width: 100%; height: 1160px;}
+        section.map{width: 100%; height: 3560px;}
+        .wrap5{width: 2000px; height: 1600px; background: black; margin: 0; position: relative; top: 265px; 
+            background: url(3.png) 0 center / 2000px repeat-x; background-size: 112%;
+            background-position: top -100px; background-position: left 100px;} 
+        .wrap5 p{position: relative; left: 1050px; top: 100px;}
+        .wrap6 img{position: relative; height: 1902px; top: 400px;}
+
+        .a {position: relative; top: -940px; right: -1100px; size: 100%; width:200px;height:200px; }
+        .a-pop {position: absolute; left: -1000px; top: -80px; display: none; width:610px;height:260px;}
+        .a:hover .a-pop {display: block;}
+
+        .b {position: relative; top: -640px; right: -1300px; width:200px;height:200px;}
+        .b-pop {position: absolute; left: -1200px; top: -80px; display: none; width:610px;height:260px;}
+        .b:hover .b-pop {display: block;}
+
+        .c {position: relative; top: -1640px; right: -1350px; width:200px;height:200px;}
+        .c-pop {position: absolute; left: -1200px; top: -80px; display: none; width:610px;height:260px;}
+        .c:hover .c-pop {display: block;}
+
+        .d {position: relative; top: -1350px; right: -1450px; width:200px;height:200px;}
+        .d-pop {position: absolute; left: -1300px; top: -80px; display: none; width:610px;height:260px;}
+        .d:hover .d-pop {display: block;}
+
+        .e {position: relative; top: -1400px; right: -900px; size: 100%; width:200px;height:200px;}
+        .e-pop {position: absolute; left: -800px; top: -80px; display: none; backdrop-filter: 
+          blur(5px); width:610px;height:260px;}
+        .e:hover .e-pop {display: block;}
+
+        .f {position: relative; top: -2200px; right: -900px; size: 100%; width:200px;height:200px;}
+        .f-pop {position: absolute; left: -800px; top: -80px; display: none; backdrop-filter: 
+          blur(5px); width:610px;height:260px;}
+        .f:hover .f-pop {display: block;}
+
+        .g {position: relative; top: -1050px; right: -900px; size: 100%; width:200px;height:200px;}
+        .g-pop {position: absolute; left: -800px; top: -80px; display: none; backdrop-filter: 
+          blur(5px); width:610px;height:260px;}
+        .g:hover .g-pop {display: block;}
+
+        .h {position: relative; top: -1650px; right: -900px; size: 100%; width:200px;height:200px;}
+        .h-pop {position: absolute; left: -800px; top: -80px; display: none; backdrop-filter: 
+          blur(5px); width:610px;height:260px;}
+        .h:hover .h-pop {display: block;}
+
+        .wrap8{width: 100%; height: 1100px; position: relative; top: -1100px; left: 60px; }
+
+
+
+       
+
+
+        section.tour{width: 100%; height: 900px;}
+        div.wrap7:hover {
+          animation-play-state: paused;} 
+        .wrap7{width: 2000px; height: 700px; background: black; margin: 0; position: relative; top: 600px;
+            background: url(run.png) 0 center / 2000px repeat-x; height: 700px; background-size: 150%;
+            background-position: center; animation: shift 10s linear infinite;} 
+      @keyframes shift{0%{background-position: 0 0;} 100%{background-position:-1800px 0;}
+        
+
+
